@@ -1,0 +1,119 @@
+.um {
+    padding: 30px;
+    margin-bottom: 0;
+    background-color: rgb(58, 54, 54);
+}
+
+#post3 {
+    text-align: justify;
+    padding: 60px;
+    border-right: double 15px goldenrod;
+    border-left: double 15px goldenrod;
+    background-color: #fff;
+}
+
+#post3 h2 {
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 2px 3px goldenrod;
+}
+
+#post3 h3 {
+    font-family: "Poiret One", sans-serif;
+    text-align: justify;
+    font-size: 36px;
+}
+
+#post3 h6 {
+    font-family: "Poiret One", sans-serif;
+    text-align: justify;
+    font-size: 25px;
+}
+
+#post3 p {
+    font-family: "Poiret One", sans-serif;
+    text-align: justify;
+    font-size: 23px;
+    color: black;
+}
+
+#post3 a {
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 60px;
+    background-color: goldenrod;
+    color: rgb(15, 14, 14);
+    padding: 10px 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+#post3 img {
+    width: 100%;
+    /* Agora sempre ajusta à largura do container */
+    max-width: 450px;
+    /* Evita que fique muito grande em telas largas */
+    border-radius: 10px;
+    border: solid 3px goldenrod;
+}
+
+
+/* Responsividade para telas menores (até 768px - celulares pequenos e médios) */
+
+@media (max-width: 768px) {
+    #post3 {
+        padding: 20px;
+        border-right: none;
+        border-left: none;
+    }
+    #post3 h2 {
+        font-size: 40px;
+    }
+    #post3 h3 {
+        font-size: 28px;
+    }
+    #post3 h6,
+    #post3 p {
+        font-size: 18px;
+    }
+    #post3 img {
+        width: 100%;
+        /* Garante que ocupe toda a largura do container */
+        height: auto;
+    }
+    #post3 a {
+        font-size: 20px;
+        padding: 8px 12px;
+    }
+}
+
+
+/* Responsividade para telas médias (768px a 1024px - tablets) */
+
+@media (max-width: 1024px) {
+    #post3 {
+        padding: 40px;
+        border-right: solid 10px goldenrod;
+        border-left: solid 10px goldenrod;
+    }
+    #post3 h2 {
+        font-size: 50px;
+    }
+    #post3 h3 {
+        font-size: 32px;
+    }
+    #post3 h6,
+    #post3 p {
+        font-size: 20px;
+    }
+    #post3 img {
+        width: 80%;
+        /* Imagem ajustada */
+        height: auto;
+    }
+    #post3 a {
+        font-size: 22px;
+        padding: 12px;
+    }
+}
